@@ -5,4 +5,6 @@ services:
   previewPlan: starter
   name: express-server
   runtime: node
+  startCommand: node app.js
+  buildCommand: yarn --frozen-lockfile install
 
